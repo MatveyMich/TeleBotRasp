@@ -7,7 +7,7 @@ bot=telebot.TeleBot(token)
 
 conn=psycopg2.connect(database="timetable_db",
                       user="postgres",
-                      password="25lol25lol25",
+                      password="",
                       host="localhost",
                       port="5432")
 
