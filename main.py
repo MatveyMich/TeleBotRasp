@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import psycopg2
 
-token="5046185537:AAG7N7705M82oL4_mixgmHZWAJeXeRyKt14"
+token=
 bot=telebot.TeleBot(token)
 
 conn=psycopg2.connect(database="timetable_db",
